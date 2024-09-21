@@ -1,0 +1,25 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: test;
+	animation-duration: 3s;
+}
+@keyframes test{
+	from{background-color: red;}
+	to{background-color: green}
+}
+.box2{width: 100px;
+	height: 100px;
+	background-color: green;
+	position: relative;
+	animation-name: test;
+	animation-duration: 5s;
+
+}
+
+@keyframes test{
+	0% {background-color: aqua; left:0px; top:0px}
+	50%{background-color: yellow; left: 300px; top: 300px;}
+	100%{background-color: blue;left:0px; top: 0px;}
+}
